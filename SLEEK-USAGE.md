@@ -12,6 +12,10 @@
 - แอป Android/Electron ของ vendor ที่ระบบเราต้องเชื่อมต่อ (interoperability)
 - binary ของระบบเราเองที่ไม่มี source แล้ว
 
+🔴 **ห้ามใช้ REA กับ source code ของบริษัท** และของที่ build จากโค้ดของเรา (repo, APK/IPA, firmware ที่เราพัฒนา, binary, web bundle)
+การใช้ REA ทุกครั้งถือเป็น **การส่งโค้ดออกนอกบริษัท** เพราะผลวิเคราะห์เข้าไปอยู่ใน context ของ AI agent และถูกส่งไปผู้ให้บริการ model
+โค้ดของเราเองใช้เครื่องมือบนเครื่องตามปกติเท่านั้น · ไม่แน่ใจว่าเป้าหมายเป็นของเราหรือไม่ → หยุดแล้วถามก่อน
+
 ก่อนเริ่ม ตรวจสัญญาหรือ license ของ vendor ว่าไม่ได้ห้าม reverse engineering
 ห้ามใช้เพื่อหลบ DRM, license check หรือระบบยืนยันตัวตนของคนอื่น (ดู [DISCLAIMER.md](DISCLAIMER.md))
 
